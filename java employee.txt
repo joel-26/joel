@@ -1,0 +1,25 @@
+package employee;
+
+public class Emp {
+	string empname,empcity
+	int empage;
+	
+	public void getInput() {
+		
+		Scanner in = new scanner(system.in);
+		System.out.println("employee name="+empname);
+		empname = in.nextInt();
+		
+		syatem.out.println("employee age="+empage);
+		empage = in.nextInt();
+		
+		system.out.println("employee city="+empcity)
+		empcity = in.next();
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("employee details are");
+		emp.display();
+	}
+}
